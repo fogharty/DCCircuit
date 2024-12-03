@@ -46,14 +46,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddResistor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddResistor.Designer.cs">
+      <DependentUpon>AddResistor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalcMethods.cs" />
+    <Compile Include="Elements.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Knot.cs" />
+    <Compile Include="Meters.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddResistor.resx">
+      <DependentUpon>AddResistor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +78,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -75,6 +92,63 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\circuit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\knot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\resistor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\lamp0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\knot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\knot0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\lamp1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\switch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\resistorbw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\bin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\resistorbwrot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\switchrot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\battery.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\batteryrot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\amperemeterrot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\amperemeter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\voltmeter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\fire.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

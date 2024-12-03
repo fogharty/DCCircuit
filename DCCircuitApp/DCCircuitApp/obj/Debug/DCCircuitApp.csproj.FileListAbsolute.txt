@@ -1,0 +1,11 @@
+C:\Users\poseidon\Desktop\Coding\progmisis\Технологии программирования\DZ\DCCircuit\DCCircuitApp\DCCircuitApp\bin\Debug\DCCircuitApp.exe.config
+C:\Users\poseidon\Desktop\Coding\progmisis\Технологии программирования\DZ\DCCircuit\DCCircuitApp\DCCircuitApp\bin\Debug\DCCircuitApp.exe
+C:\Users\poseidon\Desktop\Coding\progmisis\Технологии программирования\DZ\DCCircuit\DCCircuitApp\DCCircuitApp\bin\Debug\DCCircuitApp.pdb
+C:\Users\poseidon\Desktop\Coding\progmisis\Технологии программирования\DZ\DCCircuit\DCCircuitApp\DCCircuitApp\obj\Debug\DCCircuitApp.csproj.AssemblyReference.cache
+C:\Users\poseidon\Desktop\Coding\progmisis\Технологии программирования\DZ\DCCircuit\DCCircuitApp\DCCircuitApp\obj\Debug\DCCircuitApp.AddResistor.resources
+C:\Users\poseidon\Desktop\Coding\progmisis\Технологии программирования\DZ\DCCircuit\DCCircuitApp\DCCircuitApp\obj\Debug\DCCircuitApp.Form1.resources
+C:\Users\poseidon\Desktop\Coding\progmisis\Технологии программирования\DZ\DCCircuit\DCCircuitApp\DCCircuitApp\obj\Debug\DCCircuitApp.Properties.Resources.resources
+C:\Users\poseidon\Desktop\Coding\progmisis\Технологии программирования\DZ\DCCircuit\DCCircuitApp\DCCircuitApp\obj\Debug\DCCircuitApp.csproj.GenerateResource.cache
+C:\Users\poseidon\Desktop\Coding\progmisis\Технологии программирования\DZ\DCCircuit\DCCircuitApp\DCCircuitApp\obj\Debug\DCCircuitApp.csproj.CoreCompileInputs.cache
+C:\Users\poseidon\Desktop\Coding\progmisis\Технологии программирования\DZ\DCCircuit\DCCircuitApp\DCCircuitApp\obj\Debug\DCCircuitApp.exe
+C:\Users\poseidon\Desktop\Coding\progmisis\Технологии программирования\DZ\DCCircuit\DCCircuitApp\DCCircuitApp\obj\Debug\DCCircuitApp.pdb
