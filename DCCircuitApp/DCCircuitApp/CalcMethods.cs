@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -46,8 +47,8 @@ namespace DCCircuitApp
                     foreach (Knot am in contour3) { am.CurrentElement.Value = 0; }
                     return 0;
                 }
-                if (contour2.Count(knot => knot.CurrentElement.GetType() == typeof(Switch)) != 0) { R1 = double.MaxValue; }
-                if (contour3.Count(knot => knot.CurrentElement.GetType() == typeof(Switch)) != 0) { R2 = double.MaxValue; }
+                if (contour2.Count(knot => knot.CurrentElement.GetType() == typeof(Switch)) != 0) { R2 = double.MaxValue; }
+                if (contour3.Count(knot => knot.CurrentElement.GetType() == typeof(Switch)) != 0) { R3 = double.MaxValue; }
                 R23 = CalcParallelResistance(new double[] { R2, R3 });
                 R123 = R1 + R23;
                 U = dc.Voltage;
@@ -122,7 +123,7 @@ namespace DCCircuitApp
             }
         }
 
-        private static double CalcParallelResistance(double[] resistances)
+        public static double CalcParallelResistance(double[] resistances)
         {
             double res = 0;
             foreach (double resistance in resistances)
@@ -133,10 +134,11 @@ namespace DCCircuitApp
                 }
                 else { return 0; }
             }
-            return 1/res;
+            if (res != 0) return 1 / res;
+            else return 0;
         }
 
-        private static double CalcSerialResistance(Knot[] knots)
+        public static double CalcSerialResistance(Knot[] knots)
         {
             double res = 0;
             foreach(Knot knot in knots)
